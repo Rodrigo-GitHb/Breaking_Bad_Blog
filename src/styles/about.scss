@@ -1,0 +1,61 @@
+@use 'var.scss';
+
+.about {
+    padding: 2vw 5.6vw;
+    min-height: 40vw;
+    background-color: var.$corDeFundo2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    &__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        max-width: 1200px;
+        width: 100%;
+        align-items: center;
+        
+        &__img {
+            max-width: 500px;
+            width: 90%;
+            height: auto;
+            margin-top: 59px;
+            border-radius: 7px;
+        }
+
+        &__content {
+            margin-top: 59px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+        }
+
+        &__text {
+            font-size: 1.2em;
+            text-align: justify;
+        }
+
+        &__trailer {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    
+}
+
+.about__container__content__trailer{
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            h2{
+                padding-bottom: 19px;
+            }
+}
